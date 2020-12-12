@@ -12,10 +12,8 @@ app.use(
   })
   );
   
-app.get('/swiper', db.getUsers);
-app.get('/swiper/:id', db.getUserById);
-app.get('/back', db.getUsers1);
-app.get('/back/:id', db.getUserById1);
+app.get('/images', db.getUsers);
+app.get('/images/:id', db.getUserById);
 app.use(express.static("CourseWork"));
 
 app.listen(port, () => {
