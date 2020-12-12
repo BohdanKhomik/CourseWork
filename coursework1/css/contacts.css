@@ -1,0 +1,135 @@
+.section_contacts {
+    overflow: hidden;
+}
+
+.contact_container {
+    position: relative;
+}
+
+.contact_container::before {
+    content: "";
+    position: absolute;
+    background: url(../img/contacts/pomidor.jpg) no-repeat;
+    background-size: cover;
+    width: 672px;
+    height: 397px;
+    bottom: 0;
+    right: -420px;
+}
+
+.contacts_title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin: 90 auto 90px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+    padding-left: 30px;
+}
+
+.map {
+    height: 450px;
+    background: #fef0b4;
+}
+
+.contact_item {
+    margin-bottom: 40px;
+}
+
+.contact_title {
+    margin: 0 0 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.contact_text {
+    margin: 0;
+    font-size: 18px;
+}
+
+.contact_phone {
+    color: inherit;
+    text-decoration: none;
+    transition: color .2s;
+    -webkit-transition: color .2s;
+    -moz-transition: color .2s;
+    -ms-transition: color .2s;
+    -o-transition: color .2s;
+}
+
+.contact_phone:hover {
+    color: #ffa650
+}
+
+@media (max-width:1800px) {
+    .contact_container::before {
+        right: -320px;
+        bottom: -100px;
+    }
+}
+
+@media (max-width:1600px) {
+    .contact_container::before {
+        right: -220px;
+        bottom: -120px;
+    }
+}
+
+@media (max-width:1400px) {
+    .contact_container::before {
+        right: -150px;
+        bottom: -140px;
+    }
+}
+
+@media (max-width:1300px) {
+    .contact_container::before {
+        right: -50px;
+        bottom: -160px;
+    }
+}
+
+@media (max-width:1100px) {
+    .contact_container::before {
+        display: none;
+    }
+}
+
+@media (max-width:992px) {
+    .map {
+        height: 350px;
+    }
+}
+
+@media (max-width:800px) {
+    .left {
+        width: 100%;
+        order: 1;
+    }
+    .map {
+        margin: 0 -20px;
+        height: 300px;
+    }
+    .right {
+        width: 450px;
+        max-width: 100%;
+        margin-bottom: 30px;
+        padding-left: 0;
+    }
+}

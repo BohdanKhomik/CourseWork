@@ -1,0 +1,30 @@
+footer {
+    text-align: center;
+    padding: 10px 10px;
+    width: 100%;
+    background-color: #1f1f1f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: #fff;
+}
+
+.icon {
+    padding-top: 10px;
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon img {
+    min-width: 25px;
+    max-width: 50px;
+    height: auto;
+}
+
+.author {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+}

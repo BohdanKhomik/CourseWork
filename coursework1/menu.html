@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <title>Меню</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header_container">
+            <div class="logotipe">
+                <div class="logo">
+                    <a class="log" href="#">PizzaHouse</a>
+                </div>
+            </div>
+            <div class="navigation">
+                <div class="nav">
+                    <ul class="nav_ul">
+                        <li>
+                            <a class="nav_item" href="index.html"><span class="text">Головна</span></a></a>
+                        </li>
+                        <li>
+                            <a class="nav_item" href="menu.html"><span class="text">Піца</span></a></a>
+                        </li>
+                        <li>
+                            <a class="nav_item" href="about.html"><span class="text"> Про нас</span></a>
+                        </li>
+                        <li>
+                            <a class="nav_item" href="contacts.html"><span class="text"> Контакти</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="phone">
+                    <a class="phone_item headerphone_item" href="tel: +380969130150">+38 (096) 913-01-50</a>
+                </div>
+                <div class="hamburger">
+                    <button class="btn_menu" type="button">
+                    <span class="btn_menu_box">
+                        <span class="btn_menu_inner"></span>
+                    </span>
+                </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section section_catalog">
+        <div class="container">
+            <div class="main">
+                <h2 class="title">Menu</h2>
+                <nav class="catalog_nav">
+                    <ul class="menu">
+                        <li class="menu_item ">
+                            <button class="menu_btn active" type="button" filter="all">Всі</button>
+                        </li>
+                        <li class="menu_item">
+                            <button class="menu_btn" type="button" filter="mushroom">Грибні</button>
+                        </li>
+                        <li class="menu_item">
+                            <button class="menu_btn" type="button" filter="meaty">М'ясні</button>
+                        </li>
+                        <li class="menu_item">
+                            <button class="menu_btn" type="button" filter="cheese">Сирні</button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="catalog">
+                <div class="catalog_item" category="meaty">
+                    <div class="products catalog_products">
+                        <img src="img/katalog/amerukana.jpg" alt="" class="product">
+                        <div class="product_content">
+                            <h3 class="product_title">Американа</h3>
+                            <p class="product_info">Сир Моцарелла, бекон, шинка, Салямі,соус вершковий</p>
+                        </div>
+                        <div class="product_sizes">
+                            <div class="product_size">
+                                <button class="size active" type="button">35см</button>
+                                <button class="size" type="button">30см</button>
+                                <button class="size" type="button">20см</button>
+                            </div>
+                            <div class="bot">
+                                <div class="price">
+                                    <span class="value">237</span>
+                                    <span class="currentcy"> &#8372;</span>
+                                </div>
+                                <div>
+                                    <a href="create_order.html" class="btn product_btn">Замовити</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog_item" category="mushroom">
+                    <div class="products catalog_products">
+                        <img src="img/katalog/barbeq.jpg" alt="" class="product">
+                        <div class="product_content">
+                            <h3 class="product_title">Барбекю</h3>
+                            <p class="product_info">Цибуля,сир Моцарелла, бекон, куряче філе, гриби печериці,соус із томатів Пелаті</p>
+                        </div>
+                        <div class="product_sizes">
+                            <div class="product_size">
+                                <button class="size active" type="button">35см</button>
+                                <button class="size" type="button">30см</button>
+                                <button class="size" type="button">20см</button>
+                            </div>
+                            <div class="bot">
+                                <div class="price">
+                                    <span class="value">227</span>
+                                    <span class="currentcy"> &#8372;</span>
+                                </div>
+                                <div>
+                                    <a href="create_order.html" class="btn product_btn">Замовити</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog_item" category="meaty">
+                    <div class="products catalog_products">
+                        <img src="img/katalog/gavai.jpg" alt="" class="product">
+                        <div class="product_content">
+                            <h3 class="product_title">Гаваї</h3>
+                            <p class="product_info">Соус із томатів Пелаті, куряче філе, сир Моцарелла, ананас</p>
+                        </div>
+                        <div class="product_sizes">
+                            <div class="product_size">
+                                <button class="size active" type="button">35см</button>
+                                <button class="size" type="button">30см</button>
+                                <button class="size" type="button">20см</button>
+                            </div>
+                            <div class="bot">
+                                <div class="price">
+                                    <span class="value">230</span>
+                                    <span class="currentcy"> &#8372;</span>
+                                </div>
+                                <div>
+                                    <a href="create_order.html" class="btn product_btn">Замовити</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog_item" category="meaty">
+                    <div class="products catalog_products">
+                        <img src="img/katalog/imperia.jpg" alt="" class="product">
+                        <div class="product_content">
+                            <h3 class="product_title">Імперія</h3>
+                            <p class="product_info">Соус із томатів Пелаті, Сир Моцарелла, шинка, печериці, корнішони, цибуля</p>
+                        </div>
+                        <div class="product_sizes">
+                            <div class="product_size">
+                                <button class="size active" type="button">35см</button>
+                                <button class="size" type="button">30см</button>
+                                <button class="size" type="button">20см</button>
+                            </div>
+                            <div class="bot">
+                                <div class="price">
+                                    <span class="value">208</span>
+                                    <span class="currentcy"> &#8372;</span>
+                                </div>
+                                <div>
+                                    <a href="create_order.html" class="btn product_btn">Замовити</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog_item" category="mushroom">
+                    <div class="products catalog_products">
+                        <img src="img/katalog/kantri.jpg" alt="" class="product">
+                        <div class="product_content">
+                            <h3 class="product_title">Кантрі</h3>
+                            <p class="product_info">Сир Моцарелла, бекон, корнішони, салямі, гриби печериці, соус із томатів Пелаті</p>
+                        </div>
+                        <div class="product_sizes">
+                            <div class="product_size">
+                                <button class="size active" type="button">35см</button>
+                                <button class="size" type="button">30см</button>
+                                <button class="size" type="button">20см</button>
+                            </div>
+                            <div class="bot">
+                                <div class="price">
+                                    <span class="value">227</span>
+                                    <span class="currentcy"> &#8372;</span>
+                                </div>
+                                <div>
+                                    <a href="create_order.html" class="btn product_btn">Замовити</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog_item" category="cheese">
+                    <div class="products catalog_products">
+                        <img src="img/katalog/margarita.jpg" alt="" class="product">
+                        <div class="product_content">
+                            <h3 class="product_title">Маргарита</h3>
+                            <p class="product_info">Сир Моцарелла, помідори, соус із томатів Пелаті</p>
+                        </div>
+                        <div class="product_sizes">
+                            <div class="product_size">
+                                <button class="size active" type="button">35см</button>
+                                <button class="size" type="button">30см</button>
+                                <button class="size" type="button">20см</button>
+                            </div>
+                            <div class="bot">
+                                <div class="price">
+                                    <span class="value">204</span>
+                                    <span class="currentcy"> &#8372;</span>
+                                </div>
+                                <div>
+                                    <a href="create_order.html" class="btn product_btn">Замовити</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog_item" category="mushroom">
+                    <div class="products catalog_products">
+                        <img src="img/katalog/neapol.jpg" alt="" class="product">
+                        <div class="product_content">
+                            <h3 class="product_title">Неаполь</h3>
+                            <p class="product_info">Сир Моцарелла, перець салатний, салямі, гриби печериці,соус Вершковий, оливки</p>
+                        </div>
+                        <div class="product_sizes">
+                            <div class="product_size">
+                                <button class="size active" type="button">35см</button>
+                                <button class="size" type="button">30см</button>
+                                <button class="size" type="button">20см</button>
+                            </div>
+                            <div class="bot">
+                                <div class="price">
+                                    <span class="value">189</span>
+                                    <span class="currentcy"> &#8372;</span>
+                                </div>
+                                <div>
+                                    <a href="create_order.html" class="btn product_btn">Замовити</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog_item" category="mushroom">
+                    <div class="products catalog_products">
+                        <img src="img/katalog/ovocheva.jpg" alt="" class="product">
+                        <div class="product_content">
+                            <h3 class="product_title">Овочева</h3>
+                            <p class="product_info">Цибуля, сир Моцарелла, помідор, перець салатний, гриби печериці, соус із томатів Пелаті, оливки</p>
+                        </div>
+                        <div class="product_sizes">
+                            <div class="product_size">
+                                <button class="size active" type="button">35см</button>
+                                <button class="size" type="button">30см</button>
+                                <button class="size" type="button">20см</button>
+                            </div>
+                            <div class="bot">
+                                <div class="price">
+                                    <span class="value">215</span>
+                                    <span class="currentcy"> &#8372;</span>
+                                </div>
+                                <div>
+                                    <a href="create_order.html" class="btn product_btn">Замовити</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog_item" category="meaty">
+                    <div class="products catalog_products">
+                        <img src="img/katalog/premeer.jpg" alt="" class="product">
+                        <div class="product_content">
+                            <h3 class="product_title">Прем'єр</h3>
+                            <p class="product_info">Цибуля, бекон, шинка, куряче філе, перець салатний</p>
+                        </div>
+                        <div class="product_sizes">
+                            <div class="product_size">
+                                <button class="size active" type="button">35см</button>
+                                <button class="size" type="button">30см</button>
+                                <button class="size" type="button">20см</button>
+                            </div>
+                            <div class="bot">
+                                <div class="price">
+                                    <span class="value">209</span>
+                                    <span class="currentcy"> &#8372;</span>
+                                </div>
+                                <div>
+                                    <a href="create_order.html" class="btn product_btn">Замовити</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog_item" category="cheese">
+                    <div class="products catalog_products">
+                        <img src="img/katalog/saliamychiz.jpg" alt="" class="product">
+                        <div class="product_content">
+                            <h3 class="product_title">Салямі Чиз</h3>
+                            <p class="product_info">Сир Моцарелла, Сир Рокфор, салямі, соус із томатів Пелаті</p>
+                        </div>
+                        <div class="product_sizes">
+                            <div class="product_size">
+                                <button class="size active" type="button">35см</button>
+                                <button class="size" type="button">30см</button>
+                                <button class="size" type="button">20см</button>
+                            </div>
+                            <div class="bot">
+                                <div class="price">
+                                    <span class="value">244</span>
+                                    <span class="currentcy"> &#8372;</span>
+                                </div>
+                                <div>
+                                    <a href="create_order.html" class="btn product_btn">Замовити</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog_item" category="cheese">
+                    <div class="products catalog_products">
+                        <img src="img/katalog/saliamysuper.jpg" alt="" class="product">
+                        <div class="product_content">
+                            <h3 class="product_title">Супер Салямі</h3>
+                            <p class="product_info">Сир Моцарелла, салямі, соус із томатів Пелаті</p>
+                        </div>
+                        <div class="product_sizes">
+                            <div class="product_size">
+                                <button class="size active" type="button">35см</button>
+                                <button class="size" type="button">30см</button>
+                                <button class="size" type="button">20см</button>
+                            </div>
+                            <div class="bot">
+                                <div class="price">
+                                    <span class="value">228</span>
+                                    <span class="currentcy"> &#8372;</span>
+                                </div>
+                                <div>
+                                    <a href="create_order.html" class="btn product_btn">Замовити</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog_item" category="cheese">
+                    <div class="products catalog_products">
+                        <img src="img/katalog/verona.jpg" alt="" class="product">
+                        <div class="product_content">
+                            <h3 class="product_title">Верона</h3>
+                            <p class="product_info">Соус Вершковий, сир Моцарелла, сир Рокфор, сир Брі, куряче філе</p>
+                        </div>
+                        <div class="product_sizes">
+                            <div class="product_size">
+                                <button class="size active" type="button">35см</button>
+                                <button class="size" type="button">30см</button>
+                                <button class="size" type="button">20см</button>
+                            </div>
+                            <div class="bot">
+                                <div class="price">
+                                    <span class="value">218</span>
+                                    <span class="currentcy"> &#8372;</span>
+                                </div>
+                                <div>
+                                    <a href="create_order.html" class="btn product_btn">Замовити</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="icon">
+            <a href="https://www.facebook.com/profile.php?id=100011536720653" target="_blank"> <img src="img/footer/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/_bodianych_/" target="_blank"> <img src="img/footer/instagram.png" alt="Instagram"> </a>
+            <a href="tel:+380969130150" target="_blank"> <img src="img/footer/viber.png" alt="viber"></a>
+            <a href="https://t.me/Bodiantos" target="_blank"> <img src="img/footer/telegram.png" alt="Telegram"></a>
+            <a href="https://github.com/BohdanKhomik" target="_blank"> <img src="img/footer/github.png" alt="Github"></a>
+        </div>
+        <p class="author"> &copy; 2020 Bohdan Khomik </p>
+    </footer>
+    <script src="js/myLib.js"></script>
+    <script src="js/catalog.js"></script>
+    <script src="js/products.js"></script>
+</body>
+
+</html>

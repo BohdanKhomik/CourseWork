@@ -1,0 +1,329 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.375;
+    color: #1f1f1f;
+}
+
+.container {
+    padding: 0 20px;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 110px 0;
+}
+
+.log {
+    padding: 3px 10px;
+    margin-right: 15px;
+    font-size: 28px;
+    background-color: #ffa650;
+    font-family: 'Oleo Script', serif;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#Form {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 150;
+    display: none;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+form {
+    max-width: 600px;
+    background-color: white;
+    border-radius: 40px;
+    margin: 20px auto;
+    padding: 20px 0 20px;
+    text-align: center;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+
+/* --------------------Button For Phone start------------------------ */
+
+.phone_item {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    border: 3px solid #fff;
+    border-radius: 21.5px;
+    padding: 8px 16px;
+    transition: color .2s, background .2s, opasity .2s;
+    -webkit-border-radius: 21.5px;
+    -moz-border-radius: 21.5px;
+    -ms-border-radius: 21.5px;
+    -o-border-radius: 21.5px;
+    -webkit-transition: color .2s, background .2s, opasity .2s;
+    -moz-transition: color .2s, background .2s, opasity .2s;
+    -ms-transition: color .2s, background .2s, opasity .2s;
+    -o-transition: color .2s, background .2s, opasity .2s;
+}
+
+.phone_item:hover {
+    color: #1f1f1f;
+    background: #fff;
+}
+
+.phone_item:active {
+    opacity: 0.8;
+}
+
+
+/* --------------------Button For Phone end------------------------ */
+
+
+/* --------------------Button menu start------------------------ */
+
+.btn_menu {
+    background: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px;
+    border: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.btn_menu_box {
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+}
+
+.btn_menu_inner {
+    display: block;
+    top: 50%;
+    position: relative;
+}
+
+.btn_menu_inner::before,
+.btn_menu_inner::after {
+    content: '';
+    position: absolute;
+    left: 0;
+}
+
+.btn_menu_inner::before {
+    top: -10px;
+}
+
+.btn_menu_inner::after {
+    top: 10px;
+}
+
+.btn_menu_inner,
+.btn_menu_inner::before,
+.btn_menu_inner::after {
+    width: 100%;
+    height: 4px;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.hamburger {
+    display: none;
+    margin-right: -15px;
+}
+
+
+/* ------------------Button------------------- */
+
+.btn {
+    background: #db2730;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 20px;
+    width: 240px;
+    max-width: 100%;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: .01em;
+    box-shadow: 0 0 38px 0 rgba(212, 68, 50, 0.8);
+    transition: color .2s, background .2s, opasity .2s;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+}
+
+.btn:hover {
+    background: #bb252d;
+}
+
+.btn:active {
+    opacity: 0.8;
+    transform: scale(.95);
+    -webkit-transform: scale(.95);
+    -moz-transform: scale(.95);
+    -ms-transform: scale(.95);
+    -o-transform: scale(.95);
+}
+
+
+/* ------------------Button------------------- */
+
+
+/* --------------------Button menu end------------------------ */
+
+
+/* --------------------Header---------------------- */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    background: rgba(11, 20, 25, .9);
+    padding: 9px 0;
+    overflow: hidden;
+}
+
+.text {
+    position: relative;
+    transition: color .2s;
+    -webkit-transition: color .2s;
+    -moz-transition: color .2s;
+    -ms-transition: color .2s;
+    -o-transition: color .2s;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    margin-right: 15px;
+}
+
+.nav_ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_item {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 15px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    position: relative;
+    transition: color .2s;
+    -webkit-transition: color .2s;
+    -moz-transition: color .2s;
+    -ms-transition: color .2s;
+    -o-transition: color .2s;
+}
+
+.nav_item:hover {
+    color: #1f1f1f;
+}
+
+.nav_item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    height: calc(100% + 120px);
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opasity .2s;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.nav_item:hover::before {
+    opacity: 1;
+}
+
+
+/* --------------------------------------- */
+
+@media(max-width: 1200px) {
+    .nav_item {
+        font-size: 16px;
+        padding: 12px 30px;
+    }
+    .headerphone_item {
+        font-size: 14px;
+        padding: 7px 16px;
+    }
+}
+
+@media(max-width: 992px) {
+    .nav {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .header {
+        padding: 5px 0;
+    }
+}
+
+@media(max-width: 480px) {
+    .phone {
+        display: none;
+    }
+}
