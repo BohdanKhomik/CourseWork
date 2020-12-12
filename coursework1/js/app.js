@@ -29,40 +29,40 @@ function getDataFromHeroku() {
             const json = JSON.parse(request.responseText);
             
             if(num === 1){
-            image1.src = json[0].image;
+            image1.src = json[0].img;
             }
             if(num === 2){
-            image2.src = json[0].image;
+            image2.src = json[0].img;
             }
             if(num === 3){
-            image3.src = json[0].image;
+            image3.src = json[0].img;
             }
             if(num === 4){
-            image4.src = json[0].image;
+            image4.src = json[0].img;
             }
             if(num === 5){
-            image5.src = json[0].image;
+            image5.src = json[0].img;
             }
             if(num === 6){
-            image6.src = json[0].image;
+            image6.src = json[0].img;
             }
             if(num === 7){
-            image7.src = json[0].image;
+            image7.src = json[0].img;
             }
             if(num === 8){
-            image8.src = json[0].image;
+            image8.src = json[0].img;
             }
             if(num === 9){
-            image9.src = json[0].image;
+            image9.src = json[0].img;
             }
             if(num === 10){
-            image10.src = json[0].image;
+            image10.src = json[0].img;
             }
             if(num === 11){
-            image11.src = json[0].image;
+            image11.src = json[0].img;
             }
             if(num === 12){
-            image12.src = json[0].image;
+            image12.src = json[0].img;
             }
             
         };
