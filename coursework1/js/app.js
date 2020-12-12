@@ -3,18 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-const image1 = document.querySelector('#1');
-const image2 = document.querySelector('#2');
-const image3 = document.querySelector('#3');
-const image4 = document.querySelector('#4');
-const image5 = document.querySelector('#5');
-const image6 = document.querySelector('#6');
-const image7 = document.querySelector('#7');
-const image8 = document.querySelector('#8');
-const image9 = document.querySelector('#9');
-const image10 = document.querySelector('#10');
-const image11 = document.querySelector('#11');
-const image12 = document.querySelector('#12');
+const image1 = document.querySelector('#im1');
+const image2 = document.querySelector('#im2');
+const image3 = document.querySelector('#im3');
+const image4 = document.querySelector('#im4');
+const image5 = document.querySelector('#im5');
+const image6 = document.querySelector('#im6');
+const image7 = document.querySelector('#im7');
+const image8 = document.querySelector('#im8');
+const image9 = document.querySelector('#im9');
+const image10 = document.querySelector('#im10');
+const image11 = document.querySelector('#im11');
+const image12 = document.querySelector('#im12');
 
 
 function getDataFromHeroku() {
