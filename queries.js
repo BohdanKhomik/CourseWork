@@ -37,6 +37,5 @@ const getUserById = (request, response) => {
 module.exports = {
   getUsers,
   getUserById,
-  getUsers1,
-  getUserById1
+
 }
